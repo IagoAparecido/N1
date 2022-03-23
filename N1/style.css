@@ -76,19 +76,20 @@ input{
    font-size: 15px;
    padding: 20px;
    border: none;
-
 }
 
 #btn-enviar{
     background-color: rgb(255, 255, 255);
     height: 20px;
-    width: 70%;
+    width: 60%;
     color: rgb(0, 0, 0);
     font-size: large;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 #btn-enviar:hover{
    cursor: pointer;
-   background-color: rgb(190, 231, 229)
-
+   background-color: rgb(190, 231, 229);
 }
